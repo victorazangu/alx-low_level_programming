@@ -1,21 +1,24 @@
+/*still using betty*/
+
 #include <stdio.h>
 
 /**
-* main - Print the numbers of base 16 in lowercase
-*
-* Return: Always 0 (Success)
+ *  * main - Prints all the numbers of base 16 in lowercase.
+ *   *
+ *    * Return: Always 0.
 */
 int main(void)
 {
-		char digit;
+	int num;
+	char letter;
 
-		for (digit = '0'; digit <= '9'; digit++)
-		putchar(digit);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-		for (digit = 'a'; digit <= 'f'; digit++)
-		putchar(digit);
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
-		putchar('\n');
+	putchar('\n');
 
 	return (0);
 }

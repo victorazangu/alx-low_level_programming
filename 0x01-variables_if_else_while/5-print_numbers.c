@@ -1,17 +1,20 @@
+/*still using betty*/
+
 #include <stdio.h>
 
 /**
-* main - Print all single digit numbers
-*
-* Return: Always 0 (Success)
+ *  * main - Prints all single digit numbers of base 10 starting from 0.
+ *   *
+ *    * Return: Always 0.
 */
 int main(void)
 {
-	int digit;
+	int num;
 
-	for (digit = 0; digit < 10; digit++)
-	printf("%i", digit);
-	putchar('\n');
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
 
 	return (0);
 }

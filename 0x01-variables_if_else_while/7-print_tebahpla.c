@@ -1,16 +1,18 @@
+/*still using betty*/
+
 #include <stdio.h>
 
 /**
-* main - Print the alphabet in lowercase letters in reverse
-*
-* Return: Always 0 (Success)
+ *  * main - Prints the lowercase alphabet in reverse.
+ *   *
+ *    * Return: Always 0.
 */
 int main(void)
 {
 	char letter;
 
 	for (letter = 'z'; letter >= 'a'; letter--)
-	putchar(letter);
+		putchar(letter);
 
 	putchar('\n');
 
