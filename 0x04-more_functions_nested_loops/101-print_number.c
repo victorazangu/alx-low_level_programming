@@ -1,10 +1,9 @@
 #include "main.h"
 
-/*
- * print_number - prints an integer.
- * followed by a new line;
- * @n : integer to be printed
- * Return : 0 Always (Sucess)
+/**
+ *  *print_number - prints an integer
+ *    * @n : integer to be printed
+ *     * Return : 0 Always (Sucess)
 */
 void print_number(int n)
 {
