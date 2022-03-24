@@ -26,7 +26,7 @@ void print_array(int *a, int n)
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code
  *
  * Return: Always 0.
  */
