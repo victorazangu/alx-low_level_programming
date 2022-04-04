@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 /**
  * free_grid - frees a 2d integer grid previously created by alloc_grid
